@@ -1,6 +1,7 @@
 # AI-Web-App-using-Flask-and-Python
-This AI Translation Web App is built with Flask Framework and Python
-This services can translate uo to 15 different Languages
+This AI Translation Web App is built with Flask Framework and Python     
+It uses Azure Cognitive Services - Translator Services     
+This web app can translate up to 15 different Languages
 
 ## How to use
 #### Write the word/text you want to translate, then select your preferred language and click on Translate
