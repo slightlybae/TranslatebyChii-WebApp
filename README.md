@@ -1,8 +1,14 @@
 # AI-Web-App-using-Flask-and-Python
 This AI Translation Web App is built with Flask Framework and Python
-This services can translate uo to 1o different Languages
+This services can translate uo to 15 different Languages
 
 ## How to use
+#### Write the word/text you want to translate, then select your preferred language and click on Translate
+![Screenshot (32)](https://user-images.githubusercontent.com/45470819/221436668-1d9d5779-eaa0-4811-81fa-d96b4c50b7f3.png)
+
+#### Your translated text is shown here.
+![Screenshot (33)](https://user-images.githubusercontent.com/45470819/221436672-723c134f-0729-44f1-96a9-553b5730a53f.png)
+
 
 ## Languages and Framework
 > Python
