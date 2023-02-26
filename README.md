@@ -4,6 +4,15 @@ This services can translate uo to 1o different Languages
 
 ## How to use
 
+## Languages and Framework
+> Python
+
+> Html
+
+> Flask & Bootstrap
+
+
+
 ## Software and Application Used
 1. Install Visual Studio Code
 Visual Studio Code is an open-source code editor that allows you to create almost any type of application you might like
