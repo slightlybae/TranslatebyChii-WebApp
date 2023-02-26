@@ -72,7 +72,10 @@ Activate the environment
    5. Return to the command or terminal window and perform the installation by using pip to run the following command:
      > pip install -r requirements.txt  
 
-     
-     
+
+## Sevices Used
+Azure Translator Service     
+   This service, is part of Azure Cognitive Services, which will translate to and from dozens of languages. It can automatically detect the source language, and can translate to multiple target languages in one call.
+
 For more infromation on how to buid an AI Web App using Flask and Python
 [Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/python-flask-build-ai-web-app/?wt.mc_id=studentamb_85181) 
