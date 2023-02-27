@@ -14,7 +14,7 @@ Azure Translator Service
 ![Screenshot (33)](https://user-images.githubusercontent.com/45470819/221436672-723c134f-0729-44f1-96a9-553b5730a53f.png)
 
 #### Test the App
-https://translatebychii.azurewebsites.net/
+[Translate by Chii](https://translatebychii.azurewebsites.net/)
 
 ## Languages and Framework
 > Python
