@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'TranslatebyChii'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F148831AB4944C7ABE4709AD0D49B696 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_03BFDF6FA935460C8F0A7A62AB3D09F5 }}
