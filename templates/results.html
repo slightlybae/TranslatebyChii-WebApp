@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,64 +7,102 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body style="background: #eedddd;">
+
     <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/slightlybae/AI-Translator-WebApp">Source Code</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 
     <div class="container">
-        <h2>Results</h2>
-        <div>
+
+        <h2 class="fw-bolder">Results</h2>
+        <P class="fst-normal">Here is your translated text</P>
+
+        <div class="shadow-lg p-3 mb-5 mt-2 rounded">
+
+        <div class="mt-2 mb-2">
             <strong>Original text:</strong> {{ original_text }}
         </div>
-        <div>
+        <div class="mb-2">
             <strong>Translated text:</strong> {{ translated_text }}
         </div>
-        <div>
+        <div class="mb-2">
             <strong>Target language code:</strong> {{ target_language }}
         </div>
         <div>
             <a href="{{ url_for('index') }}">Try another one!</a>
         </div>
+ 
+        </div>
+        
     </div>
 
-
     <!--Footer section-->
-    <footer id="section2" class="text-center text-white" style="background-color: #eedddd; position: fixed; height: 100px; bottom: 0; width: 100%;">
+    <footer id="section2" class="text-center text-white"
+        style="background-color: #eedddd; position: fixed; height: 100px; bottom: 0; width: 100%;">
+        
         <!-- Grid container -->
         <div class="container pt-4">
-            <!-- Section: Social media -->
-            <section class="mb-4">
+
+             <!-- Section: Social media -->
+             <section class="mb-4">
+
                 <!-- Twitter -->
                 <a class="btn btn-link btn-floating text-white m-1" style="background-color: #55acee;"
                     href="https://twitter.com/CBe_ata" role="button" data-mdb-ripple-color="dark"><i
                         class="bi bi-twitter"></i></a>
 
-                <!-- Linkedin -->
+                 <!-- Linkedin -->
                 <a class="btn btn-link btn-floating text-white m-1" style="background-color: #0082ca;"
-                    href="https://linkedln.com/Chino Ikwuegbu" role="button" data-mdb-ripple-color="dark"><i
-                        class="bi bi-linkedin"></i></a>
+                href="https://linkedln.com/Chino Ikwuegbu" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-linkedin"></i></a>
+
                 <!-- Github -->
                 <a class="btn btn-link btn-floating text-white m-1" style="background-color: #333333;"
-                    href="https://github.com/slightlybae" role="button" data-mdb-ripple-color="dark"><i
-                        class="bi bi-github"></i></a>
-            </section>
-            <!-- Section: Social media -->
+                href="https://github.com/slightlybae" role="button" data-mdb-ripple-color="dark"><i
+                    class="bi bi-github"></i></a>
+
+             </section>
+             <!-- Section: Social media -->
+
         </div>
         <!-- Grid container -->
 
         <!-- Copyright -->
+
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2023 Copyright:
             <a class="text-dark" href="">Made with <i class="bi bi-heart-fill"> by Chii</i></a>
         </div>
         <!-- Copyright -->
-    </footer>
-    <!--Footer End Section-
+    
 
+    </footer>
+    <!--Footer End Section-->
+       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+
 </body>
 </html>
