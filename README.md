@@ -1,5 +1,6 @@
 # Translate by Chii          
-Translate by Chii is an AI Translation Web App that can translate text and sentences in many languages. It is built using the Flask Framework and Python.
+Translate by Chii is an AI Translation Web App that can translate text in many languages.
+You can enter any text or sentence in your language and get it translated to the language of your choice in seconds. Translate by Chii supports many languages and uses the Flask Framework and Python to create a user-friendly interface and a powerful translation engine.
 
 ## Sevices Employed
 #### Azure Translator Service     
