@@ -1,9 +1,8 @@
-# AI-Web-App-using-Flask-and-Python
-This AI Translation Web App is built with Flask Framework and Python         
-This web app can translate up to 15 different Languages
+# Translate by Chii          
+Translate by Chii is an AI Translation Web App that can translate text and sentences in many languages. It is built using the Flask Framework and Python.
 
 ## Sevices Employed
-Azure Translator Service     
+#### Azure Translator Service     
    This service, is part of Azure Cognitive Services, which will translate to and from dozens of languages. It can automatically detect the source language, and can translate to multiple target languages in one call.
 
 ## How to use
