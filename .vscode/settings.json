@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/94b5811d-f8cf-4e23-a41b-c7a10355753e/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/TranslatebyChi",
+    "appService.deploySubpath": "."
+}
