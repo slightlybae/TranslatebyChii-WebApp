@@ -2,10 +2,6 @@
 Translate by Chii is an AI Translation Web App that can translate text in many languages.
 You can enter any text or sentence in your language and get it translated to the language of your choice in seconds. Translate by Chii supports many languages and uses the Flask Framework and Python to create a user-friendly interface and a powerful translation engine.
 
-## Sevices Employed
-#### Azure Translator Service     
-   This service, is part of Azure Cognitive Services, which will translate to and from dozens of languages. It can automatically detect the source language, and can translate to multiple target languages in one call.
-
 ## How to use
 #### Write the word/text you want to translate, then select your preferred language and click on Translate
 ![Screenshot (32)](https://user-images.githubusercontent.com/45470819/221436668-1d9d5779-eaa0-4811-81fa-d96b4c50b7f3.png)
@@ -23,7 +19,9 @@ You can enter any text or sentence in your language and get it translated to the
 
 > Flask & Bootstrap
 
-
+## Sevices Employed
+#### Azure Translator Service     
+   This service, is part of Azure Cognitive Services, which will translate to and from dozens of languages. It can automatically detect the source language, and can translate to multiple target languages in one call.
 
 ## Software and Application Used
 1. Install Visual Studio Code
