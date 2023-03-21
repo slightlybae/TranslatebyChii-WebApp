@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+@media (min-width: 480px) {
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       
+    }
+    .card{
+        height: 300px;
+    }
+    
+
+
+}
